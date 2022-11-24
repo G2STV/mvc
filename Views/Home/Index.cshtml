@@ -1,8 +1,109 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿<html>
+@{
+    ViewData["Title"] = "Mangás Online";
 }
+<head>
+    <link rel="stylesheet" href="~\wwwroot/css/site.css">
+    <script src="~\wwwroot/js/site.js" ></script>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</head>
+<body>
+
+<h1 class="destaques">Destaques</h1>
+
+<div class="container" id="img" > 
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>    
+   
+    <img class="mySlides" src="~/img/baner_chainsaw_man.jpg" >
+    <img class="mySlides" src="~/img/baner_boku_no_hero.jpg" >
+    <img class="mySlides" src="~/img/baner_one_punch.jpg" >
+    <img class="mySlides" src="~/img/baner_jujutsu.jpg" >
+    <img class="mySlides" src="~/img/baner_black_clover.jpg" > 
+    
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>  
 </div>
+</div>
+</div> 
+    <br>
+<div class="lista">    
+<div class="lançamentos">
+    <h3>LANÇAMENTOS<br></h3>
+    <br>
+</div> 
+
+<table>
+  <tr><br>
+    <td><img id="img_capa" src="~/img/capa_Boku_no_Hero_Vol33.jpg"/></td>
+    <td id="boku"> Boku No Hero Academia<br>Capitulos: 373<br>Genero: Ação|Comedia|Escolar|Shounen|Super Poderes|</td> 
+  </tr>
+</table>
+
+    <br>
+
+<table>    
+    <tr>       
+        <td><img id="img_capa" src="~/img/capa_one_piece_Vol79.jpg"/></td> 
+        <td id="one">One Piece<br>Capitulos: 1067<br>Genero: Ação|Aventura|Comedia|Fantasia|Shounen|Super Poderes|</td>
+    </tr>
+</table> 
+
+ <br>   
+
+        
+    <table>    
+        <tr>
+            <td><img id="img_capa" src="~/img/capa_kaiju_no.8_Vol1.jpg"/></td>   
+            <td id="kaiju">Kaiju No.8<br>Capitulos: 74<br>Genero: Ação|Fantasia|Horror|Sci-Fi|Shounen|</td>
+        </tr>
+    </table>
+
+<br><br>
+    <h3 id="mais_lidos">MAIS LIDOS</h3>
+<br><br>
+
+<table>    
+    <tr>       
+        <td><img id="img_capa" src="~/img/capa_one_punch_Vol1.jpg"/></td> 
+        <td id="punch">One Punch Man<br>Capitulos: 209<br>Genero: Ação|Comedia|Paródia|Sci-Fi|Shounen|Sobrenatural|Super Poderes|</td>
+    </tr>
+</table>
+
+ <br>   
+    
+<table>    
+    <tr>       
+        <td><img id="img_capa" src="~/img/capa_one_piece_Vol79.jpg"/></td> 
+        <td id="one">One Piece<br>Capitulos: 1067<br>Genero: Ação|Aventura|Comedia|Fantasia|Shounen|Super Poderes|</td>
+    </tr>
+</table>
+
+ <br>   
+      
+<table>
+  <tr>
+    <td><img id="img_capa" src="~/img/capa_Boku_no_Hero_Vol33.jpg"/></td>
+    <td id="boku"> Boku No Hero Academia<br>Capitulos: 373<br>Genero: Ação|Comedia|Escolar|Shounen|Super Poderes|</td> 
+  </tr>
+</table>
+
+ <br>   
+
+<table>
+  <tr>
+    <td><img id="img_capa" src="~/img/capa_solo_leveling_Vol2.jpg"/></td>    
+    <td id="solo">Solo Leveling<br>Capitulos: 179<br>Genero: Ação|Aventura|Shounen|</td>
+  </tr>
+</table>
+
+ <br>   
+
+<table>
+  <tr>        
+    <td><img id="img_capa" src="~/img/capa_kimetsu_no_yaiba_Vol14.jpg"/></td>
+    <td id="kimetsu">Kimetsu no Yaiba<br>Capitulos: 179<br>Genero: Ação|Demônios|Histórico|Shounen|Sobrenatural|</td>
+  </tr>
+</table>
+<br><br>
+</div>
+</body>
+</html>

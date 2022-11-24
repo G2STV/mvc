@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\AV1_tecnicas_de_programaçao\\mvc\\mvc.csproj",
+      "projectUniqueName": "C:\\Users\\G2STV\\Documents\\GitHub\\mvc\\mvc.csproj",
       "projectName": "mvc",
-      "projectPath": "C:\\projetos\\AV1_tecnicas_de_programaçao\\mvc\\mvc.csproj",
+      "projectPath": "C:\\Users\\G2STV\\Documents\\GitHub\\mvc\\mvc.csproj",
       "packagesPath": "C:\\Users\\G2STV\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos\\AV1_tecnicas_de_programaçao\\mvc\\obj\\",
+      "outputPath": "C:\\Users\\G2STV\\Documents\\GitHub\\mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\G2STV\\AppData\\Roaming\\NuGet\\NuGet.Config"
